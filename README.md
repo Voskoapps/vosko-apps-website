@@ -7,4 +7,4 @@ De website van Vosko-apps, gehost op Vercel.
 - `fluffpop/privacy/` – het privacybeleid van Fluffpop: https://vosko-apps.com/fluffpop/privacy
 - `moesracers/` – Moesracers: privacy, voorwaarden en account verwijderen (https://vosko-apps.com/moesracers/privacy, /terms, /delete). De bron staat in de Moesracers-repo onder `Web/moesracers`.
 
-Elke push naar `main` zet de site via Vercel online.
+Publiceren: de Vercel-koppeling met GitHub werkt niet (Vercel-team Ryma, GitHub-account Voskoapps). Zet de site online vanuit deze map met `npx.cmd vercel@latest deploy --prod --yes --scope myryma` (de map is gekoppeld via `.vercel/`; `.vercelignore` houdt `.env*` en de README buiten de site).
